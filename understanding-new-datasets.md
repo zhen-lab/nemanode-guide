@@ -74,8 +74,8 @@ Each connection has a set fields describing the connection:
 - ```pre```: name of the post-synaptic cell (string) e.g. AWAL
 - ```post```: name of the post-synaptic cell (string) e.g. RIML
 - ```typ```: the type of the connection
-    - 0: means that the connection is a chemical synapse
-    - 2: means that the connection is a electrical synapse (gap junction)
+    - ```0```: means that the connection is a chemical synapse
+    - ```2```: means that the connection is a electrical synapse (gap junction)
 - ```datasetType```:  the location of the connection, one of ```tail```, ```head``` ```complete```
 - ```datasetId```: the id of the dataset that the connection is apart of 
 
